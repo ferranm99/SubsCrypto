@@ -7,37 +7,34 @@ import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogC
   <section class="py-7">
     <div class="container">
       <div class="row align-items-center">
+        <h2 class="mb-0" style="transform: translateY(-20px)">How does it work?</h2>
         <div class="col-lg-6">
           <div class="row justify-content-start">
             <DefaultInfoCard
               color="info"
-              icon="public"
-              title="Fully integrated"
-              description="We get insulted by others, lose trust for those We get back
-                  freezes"
+              icon="money"
+              title="Select monthly $ amount"
+              description="You can choose between 10, 100, 1K, 5K, 10K dollars/mo"
             />
             <DefaultInfoCard
               color="info"
-              icon="payments"
-              title="Payments functionality"
-              description="We get insulted by others, lose trust for those We get back
-                  freezes"
+              icon="wallet"
+              title="Enter your Bitcoin address"
+              description="Fill a simple form indicating your BTC wallet addressS"
             />
           </div>
           <div class="row justify-content-start mt-4">
             <DefaultInfoCard
               color="info"
-              icon="apps"
-              title="Prebuilt components"
-              description="We get insulted by others, lose trust for those We get back
-                  freezes"
+              icon="payments"
+              title="Pay with your card"
+              description="It is as easy as buying a Netflix or Spotify subscription"
             />
             <DefaultInfoCard
               color="info"
-              icon="3p"
-              title="Improved platform"
-              description="We get insulted by others, lose trust for those We get back
-                  freezes"
+              icon="paid"
+              title="Receive your coins!"
+              description="The 28th of each month, you will get your corresponding amount of BTC"
             />
           </div>
         </div>

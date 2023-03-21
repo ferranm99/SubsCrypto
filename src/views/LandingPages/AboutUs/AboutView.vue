@@ -1,3 +1,5 @@
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
 <script setup>
 import { onMounted, onUnmounted } from "vue";
 
@@ -6,7 +8,7 @@ import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 //image
-import bg0 from "@/assets/img/bg9.jpg";
+import bg0 from "@/assets/img/back4.jpeg";
 
 //dep
 import Typed from "typed.js";
@@ -65,8 +67,8 @@ onUnmounted(() => {
               <h1>Crypto</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We are constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              We believe that doing Dollar Cost Average should be as easy as paying for Netflix.<br>
+              So we made it possible.
             </p>
             <button type="submit" class="btn bg-gradient-success text-white">
               Create Account
@@ -90,3 +92,6 @@ onUnmounted(() => {
   </div>
   <DefaultFooter />
 </template>
+
+<style scoped>
+</style>
