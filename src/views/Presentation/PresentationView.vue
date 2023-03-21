@@ -62,7 +62,7 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              Material Kit by Tinas
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
               Start the Development With Tinas 5 Design System inspired by
