@@ -42,7 +42,7 @@ onUnmounted(() => {
 });
 
 //Subscribe to the power of bitcoin/crypto/DCA (!)
-//Subscribe to Bitcoin in the same way as you do on Netflix/Spotify/Twitch
+//SBitcoin as simple as Netflix/Spotify/Twitch
 </script>
 <template>
   <DefaultNavbar :action="{
@@ -57,26 +57,25 @@ onUnmounted(() => {
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">
-              Bitcoin as simple as <span class="text-white" id="typed"></span>
+              Subscribe to the power of <span class="text-white" id="typed"></span>
             </h1>
             <div id="typed-strings">
-              <h1>Netflix</h1>
-              <h1>Spotify</h1>
-              <h1>Twitch</h1>
+              <h1>Bitcoin</h1>
+              <h1>DCA</h1>
+              <h1>Crypto</h1>
             </div>
             <p class="lead mb-4 text-white opacity-8">
-              We’re constantly trying to express ourselves and actualize our
+              We are constantly trying to express ourselves and actualize our
               dreams. If you have the opportunity to play this game
             </p>
-            <button type="submit" class="btn bg-white text-dark">
+            <button type="submit" class="btn bg-gradient-success text-white">
               Create Account
             </button>
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
-              <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+              <a href="javascript:;"><i class="fab fa-product-hunt text-lg text-white me-4"></i></a>
+              <a href="javascript:;"><i class="fab fa-hacker-news text-lg text-white me-4"></i></a>
+              <a href="javascript:;"><i class="fas text-lg text-white">IH</i></a>
             </div>
           </div>
         </div>
