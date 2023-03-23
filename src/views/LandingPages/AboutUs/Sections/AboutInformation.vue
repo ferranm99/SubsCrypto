@@ -20,7 +20,7 @@ import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogC
               color="info"
               icon="wallet"
               title="Enter your Bitcoin address"
-              description="Fill a simple form indicating your BTC wallet addressS"
+              description="Fill a simple form indicating your BTC wallet address"
             />
           </div>
           <div class="row justify-content-start mt-4">
