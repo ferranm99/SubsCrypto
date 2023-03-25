@@ -15,9 +15,8 @@ import Typed from "typed.js";
 
 //sections
 import Information from "./Sections/AboutInformation.vue";
-import AboutTeam from "./Sections/AboutTeam.vue";
-import Featuring from "./Sections/AboutFeaturing.vue";
-import Newsletter from "./Sections/AboutNewsletter.vue";
+import Video from "./Sections/Video.vue";
+import Prices from "./Sections/Prices.vue";
 
 const body = document.getElementsByTagName("body")[0];
 //hooks
@@ -86,9 +85,8 @@ onUnmounted(() => {
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <Information />
-    <AboutTeam />
-    <Featuring />
-    <Newsletter />
+    <Video />
+    <Prices />
   </div>
   <DefaultFooter />
 </template>
