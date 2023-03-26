@@ -2,13 +2,18 @@
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
 import CenteredBlogCard from '../../../../examples/cards/blogCards/CenteredBlogCard.vue';
+import noob from '../../../../assets/img/plans/noob.png'
+import bro from '../../../../assets/img/plans/brother.png'
+import moon from '../../../../assets/img/plans/moon.png'
+import diamond from '../../../../assets/img/plans/diamond.png'
+import satoshi from '../../../../assets/img/plans/satoshi.png'
 
 const slides = [
-  { id: '1', title: 'Vue 3 Introduction', content: 'VueJS is a library' },
-  { id: '2', title: 'Vue 3 Components', content: 'Know the components' },
-  { id: '3', title: 'Vue 3 Conditional', content: 'Rendering Conditionally' },
-  { id: '4', title: 'Vue 3 Reactivity', content: 'VueJS is Reactive' },
-  { id: '5', title: 'Vue 3 Compute', content: 'VueJS uses computed properties' },
+  { id: '1', title: 'DCA Noob', content: '$10/month', image: noob },
+  { id: '2', title: 'Crypto Bro', content: '$100/month', image: bro },
+  { id: '3', title: 'Moon Boy', content: '$500/month' , image: moon },
+  { id: '4', title: 'Diamond Hands', content: '$1000/month' , image: diamond },
+  { id: '5', title: 'Satoshi Nakamoto', content: '$5000/month' , image: satoshi },
 ]
 </script>
 
@@ -38,8 +43,10 @@ const slides = [
           <div class="carousel__item">
             <div class="col-lg-4 ms-auto me-auto mt-lg-0 mt-6">
               <CenteredBlogCard
-                image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-                :title=slide.title :description=slide.content />
+                :image=slide.image
+                :title=slide.title 
+                :action="{route: 'https://givebtc.tips', label:'Subscribe', color: 'bg-gradient-success'}"
+                :description=slide.content />
             </div>
           </div>
         </Slide>

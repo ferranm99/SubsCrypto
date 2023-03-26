@@ -23,6 +23,10 @@ defineProps({
     }),
   },
 });
+
+function openInNewTab(url) {
+  window.open(url, '_blank').focus();
+}
 </script>
 <template>
   <div class="card">
@@ -38,7 +42,11 @@ defineProps({
       <p class="mb-0">
         {{ description }}
       </p>
-      <button type="button" class="btn btn-sm mb-0 mt-3" :class="action.color">
+      <button 
+        type="button" 
+        class="btn btn-sm mb-0 mt-3" 
+        :class="action.color" 
+        @click="openInNewTab(action.route)">
         {{ action.label }}
       </button>
     </div>

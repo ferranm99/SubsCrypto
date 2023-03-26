@@ -2,6 +2,7 @@
 // example components
 import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
 import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
+import bro from '../../../../assets/img/plans/brother.png';
 </script>
 <template>
   <section class="py-7">
@@ -40,7 +41,7 @@ import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogC
         </div>
         <div class="col-lg-4 ms-auto mt-lg-0 mt-6">
           <CenteredBlogCard
-            image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            :image=bro
             title="Get insights on Search"
             description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
           />
