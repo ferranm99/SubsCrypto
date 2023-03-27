@@ -46,11 +46,11 @@ onUnmounted(() => {
 //SBitcoin as simple as Netflix/Spotify/Twitch
 </script>
 <template>
-  <DefaultNavbar :action="{
+  <!--<DefaultNavbar :action="{
     route: 'javascript:;',
     label: 'Buy !',
     color: 'btn-white',
-  }" transparent /> 
+  }" transparent /> -->
   <header class="bg-gradient-dark">
     <div class="page-header min-vh-75" :style="{ backgroundImage: `url(${bg0})` }">
       <span class="mask bg-gradient-dark opacity-6"></span>
