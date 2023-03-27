@@ -1,8 +1,8 @@
 <script setup>
 // example components
 import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
-import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
 import bro from '../../../../assets/img/plans/brother.png';
+import BlogCardNavigate from "../../../../examples/cards/blogCards/BlogCardNavigate.vue";
 </script>
 <template>
   <section class="py-7">
@@ -15,7 +15,7 @@ import bro from '../../../../assets/img/plans/brother.png';
               color="info"
               icon="money"
               title="Select monthly $ amount"
-              description="You can choose between 10, 100, 1K, 5K, 10K dollars/mo"
+              description="You can choose between 10, 100, 500, 1K, 5K dollars/mo"
             />
             <DefaultInfoCard
               color="info"
@@ -40,10 +40,11 @@ import bro from '../../../../assets/img/plans/brother.png';
           </div>
         </div>
         <div class="col-lg-4 ms-auto mt-lg-0 mt-6">
-          <CenteredBlogCard
+          <BlogCardNavigate
             :image=bro
-            title="Get insights on Search"
-            description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+            title="Crypto Bro"
+            description="$100/month"
+            :action="{route: 'prices', label:'See All Plans', color: 'bg-gradient-success'}"
           />
         </div>
       </div>

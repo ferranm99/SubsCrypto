@@ -117,10 +117,10 @@ watch(
         ]"
         :to="{ name: 'presentation' }"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="Subscribe to the power of Bitcoin"
         data-placement="bottom"
       >
-        Material Kit 2
+        SubsCrypto
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"
@@ -131,7 +131,7 @@ watch(
         "
         to="/"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="Subscribe to the power of Bitcoin"
         data-placement="bottom"
       >
         Material Design

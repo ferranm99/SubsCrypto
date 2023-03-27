@@ -31,13 +31,13 @@ function openInNewTab(url) {
 <template>
   <div class="card">
     <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-      <a :href="action.route" class="d-block blur-shadow-image">
+      <a :href="action.route" target="_blank" class="d-block blur-shadow-image">
         <img :src="image" :alt="title" class="img-fluid border-radius-lg" />
       </a>
     </div>
     <div class="card-body text-center">
       <h5 class="font-weight-normal">
-        <a href="javascript:;">{{ title }}</a>
+        <a :href="action.route" target="_blank">{{ title }}</a>
       </h5>
       <p class="mb-0">
         {{ description }}

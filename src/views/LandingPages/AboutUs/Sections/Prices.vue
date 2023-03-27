@@ -9,11 +9,11 @@ import diamond from '../../../../assets/img/plans/diamond.png'
 import satoshi from '../../../../assets/img/plans/satoshi.png'
 
 const slides = [
-  { id: '1', title: 'DCA Noob', content: '$10/month', image: noob },
-  { id: '2', title: 'Crypto Bro', content: '$100/month', image: bro },
-  { id: '3', title: 'Moon Boy', content: '$500/month' , image: moon },
-  { id: '4', title: 'Diamond Hands', content: '$1000/month' , image: diamond },
-  { id: '5', title: 'Satoshi Nakamoto', content: '$5000/month' , image: satoshi },
+  { id: '1', title: 'DCA Noob', content: '$10/month', image: noob, url: 'https://buy.stripe.com/28o4jq9i4gyhaty5kk' },
+  { id: '2', title: 'Crypto Bro', content: '$100/month', image: bro, url: 'https://buy.stripe.com/bIYbLS0Lyfud7hmaEF' },
+  { id: '3', title: 'Moon Boy', content: '$500/month' , image: moon, url: 'https://buy.stripe.com/bIY5nu8e04PzcBGcMO' },
+  { id: '4', title: 'Diamond Hands', content: '$1000/month' , image: diamond, url: 'https://buy.stripe.com/dR6aHO2TGci159e5kn' },
+  { id: '5', title: 'Satoshi Nakamoto', content: '$5000/month' , image: satoshi, url: 'https://buy.stripe.com/aEUg281PC1Dn9puaEI' },
 ]
 </script>
 
@@ -37,7 +37,7 @@ const slides = [
 
 <template>
   <section class="py-3">
-    <div class="container">
+    <div class="container" id="prices">
       <Carousel>
         <Slide v-for="slide in slides" :key="slide.id">
           <div class="carousel__item">
@@ -45,7 +45,7 @@ const slides = [
               <CenteredBlogCard
                 :image=slide.image
                 :title=slide.title 
-                :action="{route: 'https://givebtc.tips', label:'Subscribe', color: 'bg-gradient-success'}"
+                :action="{route: slide.url, label:'Subscribe', color: 'bg-gradient-success'}"
                 :description=slide.content />
             </div>
           </div>
