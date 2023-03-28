@@ -4,7 +4,6 @@
 import { onMounted, onUnmounted } from "vue";
 
 //example components
-import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 //image
@@ -52,7 +51,7 @@ onUnmounted(() => {
       label: 'Buy !',
       color: 'btn-white',
     }" transparent /> -->
-    <SimpleNavbar />
+  <SimpleNavbar />
   <header class="bg-gradient-dark">
     <div class="page-header min-vh-75" :style="{ backgroundImage: `url(${bg0})` }">
       <span class="mask bg-gradient-dark opacity-6"></span>
@@ -71,7 +70,7 @@ onUnmounted(() => {
               We believe that doing Dollar Cost Average should be as easy as paying for Netflix.<br>
               So we made it possible.
             </p>
-            <button type="submit" class="btn btn-white">
+            <button type="submit" class="btn btn-success">
               Create Account
             </button>
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
@@ -87,7 +86,7 @@ onUnmounted(() => {
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <Information />
-    <Video />
+    <Video id="video"/>
     <Prices />
   </div>
   <DefaultFooter />

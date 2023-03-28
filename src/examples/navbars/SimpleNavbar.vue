@@ -1,14 +1,14 @@
 <!--https://codepen.io/technext/pen/qBmNbJE-->
 <template>
     <nav class="header">
-        <a class="logo" href=".page-top">PixelStretch</a>
+        <a class="logo" href="#">SubsCrypto</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" id="burger" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li><a href="#prices" @click="hideMenu" class="link link-theme link-arrow">HOME</a></li>
-            <li><a href="#prices" @click="hideMenu" class="link link-theme link-arrow">SERVICE</a></li>
-            <li><a href="#prices" @click="hideMenu" class="link link-theme link-arrow">ABOUT US</a></li>
-            <li><a href="#prices" @click="hideMenu" class="link link-theme link-arrow">CONTACT</a></li>
+            <li><a href="#video" @click="hideMenu" class="link link-theme link-arrow">VIDEO</a></li>
+            <li><a href="#prices" @click="hideMenu" class="link link-theme link-arrow">PLANS</a></li>
+            <li><a href="https://billing.stripe.com/p/login/eVa03zdJu6I2gZq6oo" target="_blank" @click="hideMenu" class="link link-theme link-arrow">CANCEL</a></li>
+            <li><a href="https://ferran.work#contact" @click="hideMenu" target="_blank" class="link link-theme link-arrow">CONTACT</a></li>
         </ul>
     </nav>
 </template>
@@ -30,45 +30,10 @@ function hideMenu(){
     font-family: Montserrat;
 }
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.5;
-    box-sizing: border-box
-}
-
-body {
-    margin: 0;
-}
-
 a {
-    color: #777;
+    color: #f2f2f2;
     text-decoration: none;
 }
-
-p {
-    margin: 0 0 45px 0;
-    text-align: justify;
-}
-
-.header {
-    width: 80%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Montserrat;
-    font-weight: 600;
-    color: #484848;
-    margin: 30px 0 25px 0;
-    line-height: 1.3
-}
-
-
 
 /* - link under - */
 
@@ -125,7 +90,7 @@ h6 {
 }
 
 .link:hover {
-    color: #000
+    color: white;
 }
 
 .link:hover:before {
@@ -133,7 +98,7 @@ h6 {
 }
 
 .link-theme:before {
-    background: #ffd300
+    background: #2bff00
 }
 
 /* header   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
@@ -167,7 +132,7 @@ h6 {
 }*/
 
 .header .logo {
-    color: orange;
+    color: #4BB543;
     display: block;
     float: left;
     font-size: 2em;
@@ -273,7 +238,7 @@ h6 {
 }
 @media (max-width: 875px){
     .header ul {
-        background-color: #fff;
+        background-color: #7d8f75;
     }
 }
 </style>

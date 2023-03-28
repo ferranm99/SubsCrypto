@@ -38,6 +38,7 @@ const slides = [
 <template>
   <section class="py-3">
     <div class="container" id="prices">
+      <h3 class="mb-0" style="text-align: center; padding-top: 20px;">Choose the plan that better suits you</h3>
       <Carousel>
         <Slide v-for="slide in slides" :key="slide.id">
           <div class="carousel__item">
@@ -82,5 +83,9 @@ const slides = [
   background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   border-radius: 20px;
+}
+
+.carousel__pagination {
+  transform: translateX(-15px);
 }
 </style>
