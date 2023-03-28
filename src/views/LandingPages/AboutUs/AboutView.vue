@@ -17,6 +17,7 @@ import Typed from "typed.js";
 import Information from "./Sections/AboutInformation.vue";
 import Video from "./Sections/Video.vue";
 import Prices from "./Sections/Prices.vue";
+import SimpleNavbar from "../../../examples/navbars/SimpleNavbar.vue";
 
 const body = document.getElementsByTagName("body")[0];
 //hooks
@@ -47,10 +48,11 @@ onUnmounted(() => {
 </script>
 <template>
   <!--<DefaultNavbar :action="{
-    route: 'javascript:;',
-    label: 'Buy !',
-    color: 'btn-white',
-  }" transparent /> -->
+      route: 'javascript:;',
+      label: 'Buy !',
+      color: 'btn-white',
+    }" transparent /> -->
+    <SimpleNavbar />
   <header class="bg-gradient-dark">
     <div class="page-header min-vh-75" :style="{ backgroundImage: `url(${bg0})` }">
       <span class="mask bg-gradient-dark opacity-6"></span>
@@ -91,5 +93,4 @@ onUnmounted(() => {
   <DefaultFooter />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
