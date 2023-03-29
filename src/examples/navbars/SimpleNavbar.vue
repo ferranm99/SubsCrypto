@@ -25,6 +25,10 @@ function hideMenu(){
 
 <style scoped>
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Rubik Iso';
+
+/*@import 'https://fonts.googleapis.com/css?family=Alfa Slab One';
+@import 'https://fonts.googleapis.com/css?family=Rubik Glitch'; */
 
 * {
     font-family: Montserrat;
@@ -137,6 +141,7 @@ a {
     float: left;
     font-size: 2em;
     padding: 2px 0px;
+    font-family: Rubik Iso;
     text-decoration: none;
 }
 
@@ -160,7 +165,7 @@ a {
 }
 
 .header .menu-icon .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -170,7 +175,7 @@ a {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: '';
     display: block;
     height: 100%;

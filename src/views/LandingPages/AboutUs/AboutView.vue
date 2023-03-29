@@ -44,6 +44,9 @@ onUnmounted(() => {
 
 //Subscribe to the power of bitcoin/crypto/DCA (!)
 //SBitcoin as simple as Netflix/Spotify/Twitch
+function nav() {
+    document.getElementById('imageclick').click()
+}
 </script>
 <template>
   <!--<DefaultNavbar :action="{
@@ -70,8 +73,8 @@ onUnmounted(() => {
               We believe that doing Dollar Cost Average should be as easy as paying for Netflix.<br>
               So we made it possible.
             </p>
-            <button type="submit" class="btn btn-success">
-              Create Account
+            <button type="submit" @click="nav" class="btn btn-success">
+              Start Now
             </button>
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
