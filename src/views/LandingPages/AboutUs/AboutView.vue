@@ -78,9 +78,9 @@ function nav() {
             </button>
             <h6 class="text-white mb-2 mt-5">Find us on</h6>
             <div class="d-flex justify-content-center">
-              <a href="javascript:;"><i class="fab fa-product-hunt text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fab fa-hacker-news text-lg text-white me-4"></i></a>
-              <a href="javascript:;"><i class="fas text-lg text-white">IH</i></a>
+              <a href="https://www.producthunt.com/posts/subscrypto" target="_blank"><i class="fab fa-product-hunt text-lg text-white me-4"></i></a>
+              <a href="https://news.ycombinator.com/item?id=35413093" target="_blank"><i class="fab fa-hacker-news text-lg text-white me-4"></i></a>
+              <a href="https://www.indiehackers.com/product/subscrypto" target="_blank"><i class="fas text-lg text-white">IH</i></a>
             </div>
           </div>
         </div>
